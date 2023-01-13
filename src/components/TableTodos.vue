@@ -26,7 +26,7 @@
 <script>
 import { useCounterStore } from "../stores/counter";
 import ElementTodo from "./ElementTodo.vue";
-import { mapState, mapActions } from 'pinia';
+import { mapState, mapActions } from "pinia";
 export default {
   components: {
     ElementTodo,

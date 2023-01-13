@@ -5,8 +5,8 @@
 </template>
 
 <script>
-import 'bootstrap/dist/css/bootstrap.min.css'
-import { mapState, mapActions } from 'pinia';
+import "bootstrap/dist/css/bootstrap.min.css";
+import { mapState, mapActions } from "pinia";
 import AddTodos from "./components/AddTodos.vue";
 import AppTitle from "./components/AppTitle.vue";
 import ListTodos from "./components/ElementTodo.vue";
@@ -21,13 +21,12 @@ export default {
     DelAllTodos,
   },
   methods: {
-    ...mapActions(useCounterStore, ['loadData'])
+    ...mapActions(useCounterStore, ["loadData"]),
   },
-  mounted(){
-    this.loadData()
-  }
+  mounted() {
+    this.loadData();
+  },
 };
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>

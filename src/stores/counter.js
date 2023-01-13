@@ -52,7 +52,7 @@ export const useCounterStore = defineStore('counter', {
       this.todos.forEach(todo => {
         axios.delete(url + '/todos/' + todo.id)
           .then(response => {
-            console.log("Elemento borrado: "+response.data);
+            console.log("Elemento borrado: " + response.data);
           })
           .catch(error => {
             console.log(error)
