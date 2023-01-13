@@ -6,7 +6,8 @@
         <th>Titulo</th>
         <th>Terminada</th>
         <th>Eliminar Tarea</th>
-        <th>Terminar Tarea</th>
+        <th>Abrir Tarea</th>
+        <th>Finalizar Tarea</th>
       </tr>
     </thead>
     <tbody id="tableProducts">

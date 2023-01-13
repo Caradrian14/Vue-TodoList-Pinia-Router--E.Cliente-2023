@@ -5,6 +5,7 @@
 </template>
 
 <script>
+import 'bootstrap/dist/css/bootstrap.min.css'
 import { mapState, mapActions } from 'pinia';
 import AddTodos from "./components/AddTodos.vue";
 import AppTitle from "./components/AppTitle.vue";

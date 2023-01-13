@@ -1,8 +1,8 @@
 <template>
   <tr class="text-success text-center">
-    <td>{{ todo.id }}</td>
-    <td>{{ todo.title }}</td>
-    <td>{{ todo.done }}</td>
+    <td class="text-success">{{ todo.id }}</td>
+    <td class="text-success">{{ todo.title }}</td>
+    <p class="text-success">{{todo.done ? 'Completada' : 'Incompleta'}}</p>
     <td>
       <button class="btn btn-secondary delete">
         <span class="material-icons" @click="deleteThisTodo">Borrar</span>
