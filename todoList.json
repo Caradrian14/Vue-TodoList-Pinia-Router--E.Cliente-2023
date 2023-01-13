@@ -1,49 +1,19 @@
 {
   "todos": [
     {
-      "id": 1,
-      "title": "Learn JavaScript",
-      "done": false
+      "title": "Comprar patatas",
+      "done": false,
+      "id": 1
     },
     {
-      "title": "patata",
-      "done": false,
+      "title": "swswswsw",
+      "done": true,
       "id": 2
     },
     {
-      "title": "nueva tarea",
-      "done": true,
+      "title": "swswwwwww",
+      "done": false,
       "id": 3
-    },
-    {
-      "title": "Limpiar baño",
-      "done": false,
-      "id": 4
-    },
-    {
-      "title": "Capturar al gato",
-      "done": false,
-      "id": 5
-    },
-    {
-      "title": "Cambiar las sabanas",
-      "done": false,
-      "id": 6
-    },
-    {
-      "title": "Limpiar los platos",
-      "done": false,
-      "id": 7
-    },
-    {
-      "title": "Limpiar la fruta",
-      "done": false,
-      "id": 8
-    },
-    {
-      "title": "Limpiar zapatos",
-      "done": false,
-      "id": 9
     }
   ]
 }
