@@ -18,10 +18,9 @@ const router = createRouter({
       component: addTodo
     },
     {
-      path: '/delete/:id',
-      name: 'delete',
-      component: DeleteTodo,
-      props: true
+      path: '/deleteAll',
+      name: 'delete-all',
+      component: DeleteTodo
     },
     {
       path: '/about',

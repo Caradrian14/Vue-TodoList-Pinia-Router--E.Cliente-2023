@@ -3,17 +3,47 @@
     {
       "id": 1,
       "title": "Learn JavaScript",
-      "done": true
+      "done": false
     },
     {
       "title": "patata",
-      "done": true,
+      "done": false,
       "id": 2
     },
     {
       "title": "nueva tarea",
       "done": true,
       "id": 3
+    },
+    {
+      "title": "Limpiar baño",
+      "done": false,
+      "id": 4
+    },
+    {
+      "title": "Capturar al gato",
+      "done": false,
+      "id": 5
+    },
+    {
+      "title": "Cambiar las sabanas",
+      "done": false,
+      "id": 6
+    },
+    {
+      "title": "Limpiar los platos",
+      "done": false,
+      "id": 7
+    },
+    {
+      "title": "Limpiar la fruta",
+      "done": false,
+      "id": 8
+    },
+    {
+      "title": "Limpiar zapatos",
+      "done": false,
+      "id": 9
     }
   ]
 }

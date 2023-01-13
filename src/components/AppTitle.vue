@@ -7,7 +7,7 @@
                 <div class="navbar-nav">
                     <router-link to="/" class="nav-link active">Ver Tareas</router-link>
                     <router-link to="/add" class="nav-link active">Añadir Tareas</router-link>
-                    <!--<router-link to="/delete" class="nav-link active">Borrar Tarea</router-link>-->
+                    <router-link to="/deleteAll" class="nav-link active">Borrar Tarea</router-link>
                     <router-link to="/about" class="nav-link active">Sobre nosotros</router-link>
                     
                 </div>

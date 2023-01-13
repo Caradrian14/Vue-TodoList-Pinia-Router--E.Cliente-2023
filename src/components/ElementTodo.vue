@@ -5,12 +5,12 @@
     <td>{{ todo.done }}</td>
     <td>
       <button class="btn btn-secondary delete">
-        <span class="material-icons" @click="quitProd">Borrar</span>
+        <span class="material-icons" @click="deleteThisTodo">Borrar</span>
       </button>
     </td>
     <td>
       <button class="btn btn-secondary open">
-        <span class="material-icons" @click="quitProd">Abrir</span>
+        <span class="material-icons" @click="openThisTodo">Abrir</span>
       </button>
     </td>
     <td>
@@ -29,13 +29,17 @@ export default {
     todo: Object,
   },
   methods: {
-    quitProd(){
-        this.$router.push(`/delete/${this.todo.id}`);
-    },
-    ...mapActions(useCounterStore, ['finishTodo']),
+    
+    ...mapActions(useCounterStore, ['finishTodo', 'openTodo', 'deleteTodo']),
     finishThisTodo(){
       this.finishTodo(this.todo.id)
-    }
+    },
+    openThisTodo(){
+      this.openTodo(this.todo.id)
+    },
+    deleteThisTodo(){
+      this.deleteTodo(this.todo)
+    },
   }
 };
 </script>

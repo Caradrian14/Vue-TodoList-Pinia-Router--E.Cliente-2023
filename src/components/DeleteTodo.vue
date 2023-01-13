@@ -1,11 +1,6 @@
 <template>
-    <h2>Vas a borrar la tarea:</h2>
-    <tr class="text-success text-center">
-    <td>{{ todo.id }}</td>
-    <td>{{ todo.title }}</td>
-    <td>{{ todo.done }}</td>
-  </tr>
-  <div><br /><button @click="delTodos">Borrar toda la lista</button></div>
+    <h2>Vas a borrar todas las tareas:</h2>
+  <div><br /><button @click="delAllTodos">Borrar toda la lista</button></div>
 </template>
 
 <script>
@@ -16,12 +11,11 @@ export default {
     id: String,
   },
   methods: {
-    ...mapActions(useCounterStore, ['getTodoById']),
-    delTodos() {
-      alert("Vas a borra la lista");
-      if (confirm("¿Deseas borrar toda la lista de cosas a hacer?")) {
-        //Modificar esto
-        var todo = this.getTodoById(Number(this.id));
+    ...mapActions(useCounterStore, ['deleteAll']),
+    delAllTodos() {
+      if (confirm("¿Deseas borrar toda la lista de cosas que hacer? Seguro que ya no tienes nada mas que hacer?")) {
+        alert("Que mentiroso!!!")
+        this.deleteAll();
       }
     },
   },

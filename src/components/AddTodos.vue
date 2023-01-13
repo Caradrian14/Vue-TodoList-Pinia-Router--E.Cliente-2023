@@ -1,6 +1,6 @@
 <template>
     <div>
-        <input v-model="newTodo">
+        <input v-model="newTodo" type="text">
         <button @click="addNewTodo">Añadir</button>
     </div>
 </template>
@@ -14,7 +14,7 @@ import { mapState, mapActions } from 'pinia';
       addNewTodo() {
             if (this.newTodo) {
               this.addTodo(this.newTodo);
-              this.newTodo='';  
+              this.newTodo = '' 
             }
           }
     }
